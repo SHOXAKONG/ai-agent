@@ -1,0 +1,44 @@
+Based on your domain map, here are example queries for each agent:
+
+**Sales agent**
+- "What was our total revenue this year?"
+- "Which region has the highest sales?"
+- "What is our current win rate?"
+- "Show me all deals in negotiation stage"
+- "Which deal has the highest probability of closing?"
+- "How did Q3 revenue compare to target?"
+
+**Inventory agent**
+- "Which products are below reorder point?"
+- "What is our total inventory value?"
+- "Which category has the highest turnover rate?"
+- "Show me all SKUs with low stock alerts"
+- "What is the unit cost of Gadget X?"
+- "Which product needs to be reordered urgently?"
+
+**Finance agent**
+- "What is our profit margin this year?"
+- "Which department is over budget?"
+- "Show me the expense breakdown"
+- "What were total expenses in March?"
+- "How does actual spending compare to budget in Engineering?"
+- "What is our net profit this quarter?"
+
+**HR agent**
+- "How many employees do we have in total?"
+- "Which department has the most headcount?"
+- "What is our annual turnover rate?"
+- "How many open positions do we have?"
+- "Show me hiring trends for the last 6 months"
+- "What is the average employee tenure?"
+
+**General agent** (cross-domain)
+- "Give me a full company health summary"
+- "Compare revenue growth vs headcount growth"
+- "Are we profitable enough to hire more people?"
+- "What are the biggest risks across all departments?"
+- "How is the company performing overall?"
+
+---
+
+The **general agent** queries are the most powerful ones — they force the orchestrator to synthesize insights across all four domains at once, which is the core value of a multi-agent system.
